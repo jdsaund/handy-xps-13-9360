@@ -4,8 +4,8 @@
 
 #!/bin/bash
 
-VertTwoFingerScroll=1
-HorizTwoFingerScroll=1
+synclient VertTwoFingerScroll=1
+synclient HorizTwoFingerScroll=1
 synclient VertScrollDelta=-50
 synclient HorizScrollDelta=-50
 synclient TapButton1=0

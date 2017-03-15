@@ -1,0 +1,11 @@
+# to check the curent options for the i915 video card
+sudo get_module i915
+
+# to update the options for the kernels
+sudo mkinitcpio -p linux-nvme
+sudo mkinitcpio -p linux
+
+# process:
+# 1. copy in i915 and mkinitcpio files
+# 2. update options
+# 3. check setting took hold
